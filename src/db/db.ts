@@ -8,5 +8,5 @@ export function getTeams() {
 export function addTeams(team: Team) {
   const teams = getTeams()
   teams.push(team)
-  writeFileSync("src/db/teams.json", JSON.stringify(teams))
+  writeFileSync("src/db/teams.json", JSON.stringify(teams, null, 2))
 }
