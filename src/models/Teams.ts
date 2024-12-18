@@ -6,4 +6,5 @@ export interface User {
 export interface Team {
   members: User[];
   score: null | number;
+  note: string;
 }
