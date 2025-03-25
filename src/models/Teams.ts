@@ -8,3 +8,9 @@ export interface Team {
   score: null | number;
   note: string;
 }
+
+export interface ManagingData { 
+  password: string, 
+  leader: string, 
+  score: string 
+}
